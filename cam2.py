@@ -10,7 +10,7 @@ ocr = PaddleOCR(use_angle_cls=True, lang='en',use_gpu=False ) # need to run only
 
 # draw result
 
-
+# test
 
 
 cam = cv2.VideoCapture(0)
