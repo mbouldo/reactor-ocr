@@ -6,13 +6,7 @@ from PIL import Image
 # to switch the language model in order.
 ocr = PaddleOCR(use_angle_cls=True, lang='en',use_gpu=False ) # need to run only once to download and load model into memory
 
-
-
 # draw result
-
-
-
-
 cam = cv2.VideoCapture(0)
 
 img_counter = 0
@@ -51,5 +45,4 @@ while  True:
         img_counter+=1
 
 cam.release()
-
 cam.destroyAllWindows()
